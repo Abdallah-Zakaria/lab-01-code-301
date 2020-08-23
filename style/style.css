@@ -1,88 +1,12 @@
-@import "reset.css";
-
-body {
-    background-color: honeydew;
-}
-
-main{
-    width: 480px;
-    margin: 0 auto;
-}
-
-div {
-    background-color : gray ;
-    text-align: center;
-    border: black solid 1px;
-    box-sizing: border-box;
-    font-size: larger;
-    vertical-align: text-bottom;
-}
-
-#a {
-    height: 75px;
-    width: 480px;
-}
-#b {
-    height: 150px;
-    width: 480px;
-}
-#c ,#d {
-    height: 125px;
-    width: 480px;
-}
-#e ,#f ,#g , #h {
-    height: 250px;
-    width: 240px;
-    float: left;
-}
-
-#i{
-    height: 80px;
-    width: 480px;
-    float: left;
-}
+@import "base.css";
+@import "layout.css";
+@import "module.css";
+@import "state.css";
+@import "theme.css";
 
 
-@media only screen and (min-width: 960px)  { 
-main{
-    width: 960px;
-    margin: 0 auto;
-}
-    
-div {
-    background-color : gainsboro ;
-    text-align: center;
-    border: black solid 1px;
-    box-sizing: border-box;
-    font-size: larger;
-    vertical-align: text-bottom;
-}
-#a {
-    height: 100px;
-    width: 960px;
-}
-#b {
-    height: 600px;
-    width: 200px;
-    float: left;
-}
-#c , #d{
-    height: 200px;
-    width: 380px;
-    float: left;
 
-}
-#e , #f ,#g , #h {
-    height: 250px;
-    width: 190px;
-    float: left;
 
-}
-#i {
-    height: 150px;
-    width: 760px;
-}
 
-}
 
 
